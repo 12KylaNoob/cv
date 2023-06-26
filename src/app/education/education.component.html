@@ -1,0 +1,47 @@
+<div id="education" class="body flex">
+    <div class="section education">
+        <h1 class="header" style="color:white">Education</h1>
+        <div class="column">
+            <div class="container" *ngFor="let e of educ">
+                <div class="year violet" [style.background-color]="e.color">
+                    <p>{{e.year}}</p>
+                </div>
+
+                <div class="">
+                    <p class="grade">{{e.grade}}</p>
+                    <p class="">{{e.school}}</p>
+                    <p class="">{{e.course}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="pad">
+            <h1 id="achievement" class="header">Achievements</h1>
+            <div class="container_a" *ngFor="let a of achieve">
+                <div class="year title violet">
+                    <p>{{a.title}} | {{a.year}}</p>
+                </div>
+
+                <div class="details">
+                    <p class="details">{{a.description}}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="pad">
+            <h1 class="header exp">Experience</h1>
+            <div class="container_a" *ngFor="let e of exp">
+                <div class="year title violet">
+                    <p>{{e.title}} | {{e.date}}</p>
+                </div>
+
+                <div class="details">
+                    <p class="details grade">{{e.role}}</p>
+                    <p class="details">{{e.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

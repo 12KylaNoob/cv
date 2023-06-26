@@ -1,0 +1,36 @@
+<div id="skills" class="body flex">
+    <div class="technical">
+        <h1 class="header">Technical Skills</h1>
+        <div class="flex_tech">
+            <div class="width" *ngFor="let s of skills">
+                <div class="progress space" role="progressbar" [attr.aria-valuenow]="s.progress" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <div class="progress-bar overflow-visible text-white bar" [style.width.%]="s.progress">
+                        <div class="label">
+                            <div class="skill-name">
+                                <img [src]="s.icon" [alt]="s.skill" width="25">
+                            </div>
+                            <div class="skill-name">
+                                {{s.skill}}
+                            </div>
+                        </div>
+                    </div>
+                    <span class="prog">{{s.progress}}%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="soft container">
+        <h1 class="header" style="color:white">Soft Skills</h1>
+        <div class="soft_skills">
+            <p class="white blue">Communication</p>
+            <p class="white red">Adaptability</p>
+            <p class="white yellow">Teamwork</p>
+            <p class="white blue">Creativity</p>
+            <p class="white red">Leadership</p>
+            <p class="white yellow">Interpersonal skills</p>
+            <p class="white blue">Work ethic</p>
+            <p class="white red">Attention to detail</p>
+        </div>
+    </div>
+</div>

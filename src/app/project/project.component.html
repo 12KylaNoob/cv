@@ -1,0 +1,23 @@
+<div id="project" class="body">
+    <div class="title">
+        <h1 class="header">Projects</h1>
+        <a class="see_more" routerLink="projects" style="color: #2C3140;">See more projects</a>
+    </div>
+    <div class="flex" [ngClass]="{'two-columns': isScreenSizeSmall(), 'four-columns': isScreenSizeLarge()}">
+        <div class="card" style="width: 18rem;" *ngFor="let p of projects | slice:0:projectsLimit">
+            <div class="img">
+                <img [src]="p.cover_img" class="card-img-top" alt="Project image">
+            </div>
+
+            <div class="card-body">
+                <h5 class="card-title">{{p.title}}</h5>
+                <div class="card-text-container">
+                    <p class="card-text">{{p.short | slice:0: 100}}</p>
+                </div>
+                <div class="btn-container button">
+                    <a [routerLink]="[p.url]" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

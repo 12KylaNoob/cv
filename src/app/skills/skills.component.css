@@ -1,0 +1,123 @@
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.flex_tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.technical {
+    width: 65%;
+    /* margin-right: 2%; */
+    /* flex-grow: 1; */
+}
+
+.soft {
+    width: 35%;
+}
+
+.width {
+    width: 45%;
+}
+
+.bar {
+    font-family: 'Arial Rounded MT',
+        Arial Unicode MS;
+    padding: 5%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 40px;
+    background-color: #693FBB;
+}
+
+.label {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space {
+    /* width: 350px; */
+    height: 65%;
+    border-radius: 40px;
+}
+
+.skill-name {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-right: 10px;
+}
+
+.prog {
+    text-align: right;
+    color: #2C3140;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-basis: 50%;
+} */
+
+.white {
+    padding: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    border-radius: 20px;
+}
+
+.container {
+    /* width: 100%; */
+    border-radius: 30px;
+    background-color: #693FBB;
+    padding: 3%;
+    box-shadow: 10px 10px 20px #a6a8af;
+}
+
+.soft_skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .flex {
+        flex-direction: column;
+        gap: 40px;
+        /* justify-content: space-evenly; */
+    }
+
+    .technical {
+        width: 100%;
+    }
+
+    .flex_tech {
+        justify-content: space-between;
+    }
+
+    .width {
+        width: 45%;
+    }
+
+    .soft {
+        width: 100%;
+    }
+}

@@ -1,0 +1,32 @@
+.footer {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.flex {
+    display: flex;
+    gap: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+img {
+    width: 3%;
+}
+
+.p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contact {
+    position: relative;
+}
+
+.note {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

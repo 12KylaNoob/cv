@@ -1,0 +1,82 @@
+.notice {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sorry {
+    font-family: 'Arial Rounded MT', Arial Unicode MS;
+    font-weight: bold;
+    color: #F26938;
+    font-size: 7rem;
+}
+
+.par {
+    font-size: 1.7rem;
+    color: #2C3140;
+}
+
+.section {
+    width: 50%;
+}
+
+.banner {
+    padding: 5%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.img {
+    width: 100%;
+}
+
+@media screen and (max-width: 2000px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .section {
+        width: 50%;
+    }
+
+    .banner {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .sorry {
+        font-size: 3rem;
+    }
+
+    .par {
+        font-size: 1rem;
+    }
+
+    .img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sorry {
+        font-size: 3rem;
+    }
+
+    .par {
+        font-size: 0.9rem;
+    }
+
+}

@@ -1,0 +1,59 @@
+p {
+    color: #2C3140;
+}
+
+.section {
+    width: 50%;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.banner {
+    padding: 2%;
+    margin: auto;
+}
+
+.position {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.expertise {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.size {
+    font-size: 20px;
+}
+
+.face {
+    padding: 1%;
+}
+
+.white {
+    color: white;
+    margin-right: 1%;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 900px) {
+    .position {
+        flex-direction: column;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .pic {
+        display: flex;
+        justify-content: center;
+    }
+
+    .me {
+        width: 70%;
+    }
+}

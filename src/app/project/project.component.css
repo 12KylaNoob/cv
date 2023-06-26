@@ -1,0 +1,95 @@
+.body {
+    padding-bottom: 8%;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.see_more {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    gap: 2%;
+}
+
+.card {
+    background-color: #693FBB;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px #a6a8af;
+    flex-basis: 48%;
+    max-width: 48%;
+    margin-bottom: 20px;
+}
+
+.two-columns .card {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.four-columns .card {
+    flex-basis: 48%;
+    max-width: 48%;
+}
+
+.card-img-top {
+    object-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.card-body {
+    height: 50%;
+}
+
+.card-title {
+    font-family: 'Arial Rounded MT', Arial Unicode MS;
+    text-align: center;
+    color: white;
+}
+
+.card-text-container {
+    margin: 5%;
+}
+
+.card-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FF6F27;
+    color: white;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .flex {
+        gap: 4%;
+    }
+
+    .card {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}

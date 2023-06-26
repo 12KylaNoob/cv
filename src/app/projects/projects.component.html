@@ -1,0 +1,24 @@
+<div id="welcome" class="body violet">
+    <h1 class="header">Projects</h1>
+    <div class="flex">
+        <div class="card" *ngFor="let p of projects">
+            <div class="row">
+                <div class="section">
+                    <img [src]="p.cover_img" class="img" alt="Project image">
+                </div>
+
+                <div class="section">
+                    <div class="card-body">
+                        <h5 class="card-title">{{p.title}}</h5>
+                        <div class="card-text-container">
+                            <p class="card-text">{{p.short}}</p>
+                        </div>
+                        <div class="btn-container button">
+                            <a [routerLink]="[p.url]" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

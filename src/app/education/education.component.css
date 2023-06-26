@@ -1,0 +1,93 @@
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.section {
+    width: 50%;
+}
+
+.education {
+    background-color: #693FBB;
+    padding: 3%;
+    margin-right: 5%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px #a6a8af;
+}
+
+.header {
+    /* text-align: center; */
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.column {
+    /* width: 50%;
+    height: 400px;
+    margin-left: 3%; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+}
+
+.container_a {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.year {
+    padding: 1%;
+    margin: 2%;
+    border-radius: 40px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.title_e {
+    width: 50%;
+}
+
+.title {
+    text-align: left;
+    padding-left: 3%;
+    padding-right: 3%;
+    flex-shrink: 0;
+}
+
+.details {
+    color: #2C3140;
+}
+
+.pad {
+    padding-top: 3%;
+    padding-bottom: 35;
+}
+
+.grade {
+    font-weight: bold;
+}
+
+.exp {
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 900px) {
+    .flex {
+        flex-direction: column;
+        gap: 50px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .section {
+        width: 100%;
+    }
+}
