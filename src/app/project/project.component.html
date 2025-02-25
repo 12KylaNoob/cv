@@ -15,7 +15,8 @@
                     <p class="card-text">{{p.short | slice:0: 100}}</p>
                 </div>
                 <div class="btn-container button">
-                    <a [href]="p.url" class="btn">View Project</a>
+                    <!--<a [routerLink]="[p.url]" class="btn">View Project</a>-->
+                    <a [attr.href]="p.url" class="btn">View Project</a>
                 </div>
             </div>
         </div>
