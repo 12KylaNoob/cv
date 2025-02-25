@@ -10,14 +10,14 @@ export class ProjectsService {
       title: "MK House Consultancy",
       short: "Official website of MK House Consultant that showcases available houses for sale. This website is currently on revision for rebranding.",
       //url: "mkhouse",
-      url: "http://www.mkhouseconsultancy.com",
+      url: "https://www.mkhouseconsultancy.com",
       cover_img: "assets/mk_house/cover_photo.png"
     },
 
     {
       title: "Hospital Information Management System (HIMS)",
       short: "This is our thesis project where we made a simulated HIMS for students in HAU.", 
-      url: "http://www.figma.com/design/lQFGfg3gnnjDg4VZO62lpL/HIMS?node-id=1132-11141&t=Ic2v9kSz87gTQSLT-1",
+      url: "https://www.figma.com/design/lQFGfg3gnnjDg4VZO62lpL/HIMS?node-id=1132-11141&t=Ic2v9kSz87gTQSLT-1",
       cover_img: "assets/mk_house/HIMS.png"
     },
 
